@@ -141,5 +141,144 @@ header{
     color: var(--color-brand-secondary);
 }
 
+.spacio-1{
+    height: 62.5px;
+}
 
 
+
+.titulo-beneficios {
+    font-size: clamp(32px, 5vw, 40px);
+    font-weight: 700;
+    letter-spacing: -0.045em;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--color-neutral-800);
+}
+
+.btn {
+    border-radius: 50px;
+    font-weight: 700;
+    padding: 10px 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 192px;
+    min-height: 43px;
+    transition: all 0.4s ease;
+}
+
+.cartas-iconos {
+    display: flex;
+    grid-template-columns: repeat(3, 317px);
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translateY(-11px);
+}
+
+.cartas {
+    flex: 1;
+    background: var(--color-neutral-100);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: var(--shadow-soft);
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.cartas:hover {
+    transform: translateY(-5px);
+}
+
+.icono-caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    width: 62px;
+    height: 62px;
+    background: #f0eafc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.icono-caja i {
+    font-style: normal;
+    font-weight: 400;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    width: 24px;
+    height: 24px;
+    color: #531eca;
+}
+
+.cartas h3 {
+    margin-top: -5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.625rem;
+    text-align: left;
+    letter-spacing: -0.039em;
+}
+
+.cartas p {
+    margin-top: 17.5px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6a6a6a;
+    text-align: left;
+}
+
+.banner-historias {
+    width: calc(100% - 20px);
+    max-width: 1022px;
+    height: 134px;
+    margin: 21px auto 0;
+    padding: 2px 40px;
+    background: rgb(54, 12, 114);;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-neutral-100);
+}
+
+.banner-texto h3 {
+    font-size: 30px;
+    line-height: 2rem;
+    margin-left: 25px;
+    margin-bottom: 13px;
+    text-align: left;
+    letter-spacing: -0.039em;
+    font-weight: 600;
+}
+
+.banner-texto p {
+    margin-left: 25px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.conocer-mas {
+    background: var(--color-neutral-100);
+    color: var(--color-brand-primary);
+    margin-right: 25px;
+    font-size: 16px;
+    min-width: 192px;
+    min-height: 43px;
+    transition: all 0.8s ease;
+}
+
+.conocer-mas:hover {
+    background-color: black;
+    color: var(--color-bg-accent);
+}
