@@ -18,7 +18,7 @@ body {
 
 a{text-decoration: none;}
 
-
+/*header*/
 
 header{
     height: 83px;
@@ -134,7 +134,7 @@ header{
     height: 62.5px;
 }
 
-
+/*segunda parte*/
 
 .titulo-beneficios {
     font-size: clamp(32px, 5vw, 40px);
@@ -276,6 +276,8 @@ header{
     height: 72px;
 }
 
+/*tercera parte*/
+
 .subtitulo-metodos{
     font-size: clamp(32px, 5vw, 40px);
     font-weight: 700;
@@ -363,7 +365,7 @@ header{
 }
 
 
-/*footer*/
+/*footer/cuarta parte*/
 
 
 .footer {
@@ -418,30 +420,30 @@ RESPONSIVE
 
 @media (max-width: 768px) {
 
-  /* Mostrar hamburguesa */
+/*logo hambur*/
 .menu-mobile-nav {
     display: block;
 }
 
-  /* Ocultar menú y botones */
+/* Oculto menú y botones */
 .elementos-nav,
 .derecha-nav {
     display: none;
 }
 
-  /* Header alineado como la imagen */
+/* Header alineado como la imagen */
 .navegador {
     justify-content: center;
     position: relative;
 }
 
-  /* Hamburguesa a la izquierda */
+/* Hambur a la izquierda */
 .menu-mobile-nav {
     position: absolute;
     left: 16px;
 }
 
-  /* Logo centrado */
+  /* Logo centr */
 .logo {
     margin: 0 auto;
 }
